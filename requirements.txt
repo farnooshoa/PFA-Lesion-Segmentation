@@ -1,0 +1,10 @@
+torch>=2.1
+torchvision
+numpy
+opencv-python
+Pillow
+streamlit>=1.37
+ultralytics>=8.0
+hydra-core
+omegaconf
+tqdm

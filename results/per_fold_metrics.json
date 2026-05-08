@@ -1,0 +1,22 @@
+{
+  "Ablation_1": {
+    "gt_bbox_dice": 0.9104059054222766,
+    "vidprop_best_dice": 0.9024867923101881,
+    "vidprop_best_thresh": -0.44999999999999907
+  },
+  "Ablation_2": {
+    "gt_bbox_dice": 0.8919800366627924,
+    "vidprop_best_dice": 0.878319582381705,
+    "vidprop_best_thresh": -1.5
+  },
+  "Ablation_3": {
+    "gt_bbox_dice": 0.9253119519647359,
+    "vidprop_best_dice": 0.8975737022665791,
+    "vidprop_best_thresh": -0.09999999999999876
+  },
+  "Ablation_4": {
+    "gt_bbox_dice": 0.9368174725194643,
+    "vidprop_best_dice": 0.8919927901161957,
+    "vidprop_best_thresh": 0.5000000000000018
+  }
+}
