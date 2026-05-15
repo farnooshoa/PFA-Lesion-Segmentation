@@ -178,3 +178,15 @@ fine-tuning configs) and the rationale for each choice.
   pixel-perfect; treat Dice ≈ 0.9 as the empirical ceiling.
 - Adding more positive points (9, 13) or upgrading YOLO (s/m) did **not**
   improve over 3-pos inverted-triangle. See exp15 / exp17 in the report.
+
+## 9. Extended Experiments 
+The following experiments were conducted during the project handover phase.
+Full details in `optimization_report.md` (Experiments 20–24).
+
+| Experiment | Result |
+|---|---|
+| Frozen backbone YOLO training | mAP50-95: 0.443 → 0.601 (+35%) |
+| Intensity-guided prompt points | Below baseline — negative result |
+| Edge-midpoint negative points | Below baseline — negative result |
+| SAM2 calibration analysis | ECE = 0.040 — well calibrated |
+| Threshold sweep | Dice 0.854 → 0.885 (+0.031) |
