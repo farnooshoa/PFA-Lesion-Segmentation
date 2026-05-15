@@ -1,0 +1,17 @@
+[
+  {
+    "run_name": "yolo_frozen_20260515_103546",
+    "mode": "frozen",
+    "dataset_yaml": "data\\yolo\\folds\\fold_1_val_Ablation_1.yaml",
+    "mAP50": 0.995,
+    "mAP50_95": 0.60135,
+    "precision": 0.99916,
+    "recall": 1.0,
+    "val_box_loss": 0.0,
+    "val_cls_loss": 0.0,
+    "val_dfl_loss": 0.0,
+    "best_epoch": -1,
+    "save_dir": "C:\\Users\\Farnoosh\\PFA-Lesion-Segmentation\\runs\\detect\\runs\\yolo_exp\\yolo_frozen_20260515_103546",
+    "timestamp": "2026-05-15T10:46:34"
+  }
+]
