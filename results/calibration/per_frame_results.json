@@ -1,0 +1,626 @@
+[
+  {
+    "frame": 0,
+    "dice": 0.8908,
+    "mean_prob_lesion": 0.799,
+    "mean_prob_background": 0.0012
+  },
+  {
+    "frame": 1,
+    "dice": 0.8734,
+    "mean_prob_lesion": 0.7728,
+    "mean_prob_background": 0.0074
+  },
+  {
+    "frame": 2,
+    "dice": 0.7802,
+    "mean_prob_lesion": 0.6327,
+    "mean_prob_background": 0.0018
+  },
+  {
+    "frame": 3,
+    "dice": 0.8425,
+    "mean_prob_lesion": 0.7296,
+    "mean_prob_background": 0.0034
+  },
+  {
+    "frame": 4,
+    "dice": 0.9172,
+    "mean_prob_lesion": 0.8262,
+    "mean_prob_background": 0.0144
+  },
+  {
+    "frame": 5,
+    "dice": 0.8265,
+    "mean_prob_lesion": 0.707,
+    "mean_prob_background": 0.0025
+  },
+  {
+    "frame": 6,
+    "dice": 0.8019,
+    "mean_prob_lesion": 0.6873,
+    "mean_prob_background": 0.009
+  },
+  {
+    "frame": 7,
+    "dice": 0.7865,
+    "mean_prob_lesion": 0.6471,
+    "mean_prob_background": 0.0051
+  },
+  {
+    "frame": 8,
+    "dice": 0.7971,
+    "mean_prob_lesion": 0.6642,
+    "mean_prob_background": 0.008
+  },
+  {
+    "frame": 9,
+    "dice": 0.7816,
+    "mean_prob_lesion": 0.6202,
+    "mean_prob_background": 0.0233
+  },
+  {
+    "frame": 10,
+    "dice": 0.717,
+    "mean_prob_lesion": 0.5535,
+    "mean_prob_background": 0.0035
+  },
+  {
+    "frame": 11,
+    "dice": 0.9074,
+    "mean_prob_lesion": 0.8223,
+    "mean_prob_background": 0.0076
+  },
+  {
+    "frame": 12,
+    "dice": 0.8583,
+    "mean_prob_lesion": 0.7462,
+    "mean_prob_background": 0.0065
+  },
+  {
+    "frame": 13,
+    "dice": 0.7652,
+    "mean_prob_lesion": 0.6267,
+    "mean_prob_background": 0.0161
+  },
+  {
+    "frame": 14,
+    "dice": 0.631,
+    "mean_prob_lesion": 0.4616,
+    "mean_prob_background": 0.0077
+  },
+  {
+    "frame": 15,
+    "dice": 0.8122,
+    "mean_prob_lesion": 0.6708,
+    "mean_prob_background": 0.0093
+  },
+  {
+    "frame": 16,
+    "dice": 0.9089,
+    "mean_prob_lesion": 0.8258,
+    "mean_prob_background": 0.0152
+  },
+  {
+    "frame": 17,
+    "dice": 0.9498,
+    "mean_prob_lesion": 0.8682,
+    "mean_prob_background": 0.0221
+  },
+  {
+    "frame": 18,
+    "dice": 0.7766,
+    "mean_prob_lesion": 0.6248,
+    "mean_prob_background": 0.0166
+  },
+  {
+    "frame": 19,
+    "dice": 0.8111,
+    "mean_prob_lesion": 0.6792,
+    "mean_prob_background": 0.0072
+  },
+  {
+    "frame": 20,
+    "dice": 0.7456,
+    "mean_prob_lesion": 0.583,
+    "mean_prob_background": 0.0141
+  },
+  {
+    "frame": 21,
+    "dice": 0.9372,
+    "mean_prob_lesion": 0.8001,
+    "mean_prob_background": 0.0288
+  },
+  {
+    "frame": 22,
+    "dice": 0.8521,
+    "mean_prob_lesion": 0.7414,
+    "mean_prob_background": 0.004
+  },
+  {
+    "frame": 23,
+    "dice": 0.8671,
+    "mean_prob_lesion": 0.6319,
+    "mean_prob_background": 0.0484
+  },
+  {
+    "frame": 24,
+    "dice": 0.9154,
+    "mean_prob_lesion": 0.6706,
+    "mean_prob_background": 0.0636
+  },
+  {
+    "frame": 25,
+    "dice": 0.8301,
+    "mean_prob_lesion": 0.6994,
+    "mean_prob_background": 0.0107
+  },
+  {
+    "frame": 26,
+    "dice": 0.9097,
+    "mean_prob_lesion": 0.7142,
+    "mean_prob_background": 0.0395
+  },
+  {
+    "frame": 27,
+    "dice": 0.9139,
+    "mean_prob_lesion": 0.6768,
+    "mean_prob_background": 0.0574
+  },
+  {
+    "frame": 28,
+    "dice": 0.8903,
+    "mean_prob_lesion": 0.6784,
+    "mean_prob_background": 0.0529
+  },
+  {
+    "frame": 29,
+    "dice": 0.7344,
+    "mean_prob_lesion": 0.5735,
+    "mean_prob_background": 0.0108
+  },
+  {
+    "frame": 30,
+    "dice": 0.9298,
+    "mean_prob_lesion": 0.6782,
+    "mean_prob_background": 0.0433
+  },
+  {
+    "frame": 31,
+    "dice": 0.9219,
+    "mean_prob_lesion": 0.7835,
+    "mean_prob_background": 0.0445
+  },
+  {
+    "frame": 32,
+    "dice": 0.9251,
+    "mean_prob_lesion": 0.7619,
+    "mean_prob_background": 0.0465
+  },
+  {
+    "frame": 33,
+    "dice": 0.9323,
+    "mean_prob_lesion": 0.7337,
+    "mean_prob_background": 0.0478
+  },
+  {
+    "frame": 34,
+    "dice": 0.7737,
+    "mean_prob_lesion": 0.6533,
+    "mean_prob_background": 0.015
+  },
+  {
+    "frame": 35,
+    "dice": 0.9199,
+    "mean_prob_lesion": 0.8013,
+    "mean_prob_background": 0.0314
+  },
+  {
+    "frame": 36,
+    "dice": 0.8673,
+    "mean_prob_lesion": 0.7626,
+    "mean_prob_background": 0.0029
+  },
+  {
+    "frame": 37,
+    "dice": 0.9341,
+    "mean_prob_lesion": 0.8456,
+    "mean_prob_background": 0.0395
+  },
+  {
+    "frame": 38,
+    "dice": 0.873,
+    "mean_prob_lesion": 0.7815,
+    "mean_prob_background": 0.0038
+  },
+  {
+    "frame": 39,
+    "dice": 0.9213,
+    "mean_prob_lesion": 0.8584,
+    "mean_prob_background": 0.0333
+  },
+  {
+    "frame": 40,
+    "dice": 0.753,
+    "mean_prob_lesion": 0.6077,
+    "mean_prob_background": 0.0086
+  },
+  {
+    "frame": 41,
+    "dice": 0.8535,
+    "mean_prob_lesion": 0.7331,
+    "mean_prob_background": 0.01
+  },
+  {
+    "frame": 42,
+    "dice": 0.7531,
+    "mean_prob_lesion": 0.6207,
+    "mean_prob_background": 0.0086
+  },
+  {
+    "frame": 43,
+    "dice": 0.7534,
+    "mean_prob_lesion": 0.6049,
+    "mean_prob_background": 0.0041
+  },
+  {
+    "frame": 44,
+    "dice": 0.883,
+    "mean_prob_lesion": 0.7671,
+    "mean_prob_background": 0.0268
+  },
+  {
+    "frame": 45,
+    "dice": 0.7623,
+    "mean_prob_lesion": 0.6185,
+    "mean_prob_background": 0.0078
+  },
+  {
+    "frame": 46,
+    "dice": 0.8121,
+    "mean_prob_lesion": 0.7023,
+    "mean_prob_background": 0.0263
+  },
+  {
+    "frame": 47,
+    "dice": 0.9155,
+    "mean_prob_lesion": 0.828,
+    "mean_prob_background": 0.0129
+  },
+  {
+    "frame": 48,
+    "dice": 0.9338,
+    "mean_prob_lesion": 0.8458,
+    "mean_prob_background": 0.0157
+  },
+  {
+    "frame": 49,
+    "dice": 0.838,
+    "mean_prob_lesion": 0.6894,
+    "mean_prob_background": 0.0171
+  },
+  {
+    "frame": 50,
+    "dice": 0.8429,
+    "mean_prob_lesion": 0.7127,
+    "mean_prob_background": 0.0042
+  },
+  {
+    "frame": 51,
+    "dice": 0.8122,
+    "mean_prob_lesion": 0.6543,
+    "mean_prob_background": 0.0148
+  },
+  {
+    "frame": 52,
+    "dice": 0.9365,
+    "mean_prob_lesion": 0.8214,
+    "mean_prob_background": 0.0222
+  },
+  {
+    "frame": 53,
+    "dice": 0.8273,
+    "mean_prob_lesion": 0.6966,
+    "mean_prob_background": 0.0204
+  },
+  {
+    "frame": 54,
+    "dice": 0.7204,
+    "mean_prob_lesion": 0.556,
+    "mean_prob_background": 0.0054
+  },
+  {
+    "frame": 55,
+    "dice": 0.8063,
+    "mean_prob_lesion": 0.6643,
+    "mean_prob_background": 0.0059
+  },
+  {
+    "frame": 56,
+    "dice": 0.7089,
+    "mean_prob_lesion": 0.5632,
+    "mean_prob_background": 0.011
+  },
+  {
+    "frame": 57,
+    "dice": 0.9377,
+    "mean_prob_lesion": 0.7627,
+    "mean_prob_background": 0.0471
+  },
+  {
+    "frame": 58,
+    "dice": 0.849,
+    "mean_prob_lesion": 0.7217,
+    "mean_prob_background": 0.0044
+  },
+  {
+    "frame": 59,
+    "dice": 0.9342,
+    "mean_prob_lesion": 0.7127,
+    "mean_prob_background": 0.0606
+  },
+  {
+    "frame": 60,
+    "dice": 0.9463,
+    "mean_prob_lesion": 0.6698,
+    "mean_prob_background": 0.1
+  },
+  {
+    "frame": 61,
+    "dice": 0.869,
+    "mean_prob_lesion": 0.7116,
+    "mean_prob_background": 0.0475
+  },
+  {
+    "frame": 62,
+    "dice": 0.9047,
+    "mean_prob_lesion": 0.8046,
+    "mean_prob_background": 0.0085
+  },
+  {
+    "frame": 63,
+    "dice": 0.9018,
+    "mean_prob_lesion": 0.6227,
+    "mean_prob_background": 0.0939
+  },
+  {
+    "frame": 64,
+    "dice": 0.7824,
+    "mean_prob_lesion": 0.5605,
+    "mean_prob_background": 0.0786
+  },
+  {
+    "frame": 65,
+    "dice": 0.854,
+    "mean_prob_lesion": 0.73,
+    "mean_prob_background": 0.0114
+  },
+  {
+    "frame": 66,
+    "dice": 0.8628,
+    "mean_prob_lesion": 0.7521,
+    "mean_prob_background": 0.0068
+  },
+  {
+    "frame": 67,
+    "dice": 0.8993,
+    "mean_prob_lesion": 0.7348,
+    "mean_prob_background": 0.0595
+  },
+  {
+    "frame": 68,
+    "dice": 0.8847,
+    "mean_prob_lesion": 0.786,
+    "mean_prob_background": 0.0074
+  },
+  {
+    "frame": 69,
+    "dice": 0.9098,
+    "mean_prob_lesion": 0.6797,
+    "mean_prob_background": 0.0714
+  },
+  {
+    "frame": 70,
+    "dice": 0.811,
+    "mean_prob_lesion": 0.6857,
+    "mean_prob_background": 0.0075
+  },
+  {
+    "frame": 71,
+    "dice": 0.9288,
+    "mean_prob_lesion": 0.7955,
+    "mean_prob_background": 0.0384
+  },
+  {
+    "frame": 72,
+    "dice": 0.9043,
+    "mean_prob_lesion": 0.7977,
+    "mean_prob_background": 0.0205
+  },
+  {
+    "frame": 73,
+    "dice": 0.8998,
+    "mean_prob_lesion": 0.7412,
+    "mean_prob_background": 0.039
+  },
+  {
+    "frame": 74,
+    "dice": 0.8864,
+    "mean_prob_lesion": 0.7887,
+    "mean_prob_background": 0.003
+  },
+  {
+    "frame": 75,
+    "dice": 0.815,
+    "mean_prob_lesion": 0.6724,
+    "mean_prob_background": 0.0066
+  },
+  {
+    "frame": 76,
+    "dice": 0.9241,
+    "mean_prob_lesion": 0.7804,
+    "mean_prob_background": 0.0304
+  },
+  {
+    "frame": 77,
+    "dice": 0.9404,
+    "mean_prob_lesion": 0.8545,
+    "mean_prob_background": 0.0148
+  },
+  {
+    "frame": 78,
+    "dice": 0.857,
+    "mean_prob_lesion": 0.7494,
+    "mean_prob_background": 0.0074
+  },
+  {
+    "frame": 79,
+    "dice": 0.827,
+    "mean_prob_lesion": 0.6874,
+    "mean_prob_background": 0.0122
+  },
+  {
+    "frame": 80,
+    "dice": 0.7538,
+    "mean_prob_lesion": 0.5971,
+    "mean_prob_background": 0.0046
+  },
+  {
+    "frame": 81,
+    "dice": 0.6324,
+    "mean_prob_lesion": 0.4788,
+    "mean_prob_background": 0.0147
+  },
+  {
+    "frame": 82,
+    "dice": 0.7418,
+    "mean_prob_lesion": 0.5789,
+    "mean_prob_background": 0.0081
+  },
+  {
+    "frame": 83,
+    "dice": 0.9061,
+    "mean_prob_lesion": 0.8154,
+    "mean_prob_background": 0.0111
+  },
+  {
+    "frame": 84,
+    "dice": 0.7572,
+    "mean_prob_lesion": 0.6196,
+    "mean_prob_background": 0.0165
+  },
+  {
+    "frame": 85,
+    "dice": 0.7772,
+    "mean_prob_lesion": 0.6453,
+    "mean_prob_background": 0.0027
+  },
+  {
+    "frame": 86,
+    "dice": 0.8154,
+    "mean_prob_lesion": 0.6913,
+    "mean_prob_background": 0.0035
+  },
+  {
+    "frame": 87,
+    "dice": 0.8506,
+    "mean_prob_lesion": 0.7177,
+    "mean_prob_background": 0.0186
+  },
+  {
+    "frame": 88,
+    "dice": 0.9502,
+    "mean_prob_lesion": 0.8168,
+    "mean_prob_background": 0.0385
+  },
+  {
+    "frame": 89,
+    "dice": 0.8815,
+    "mean_prob_lesion": 0.7796,
+    "mean_prob_background": 0.0223
+  },
+  {
+    "frame": 90,
+    "dice": 0.7822,
+    "mean_prob_lesion": 0.6439,
+    "mean_prob_background": 0.0098
+  },
+  {
+    "frame": 91,
+    "dice": 0.8053,
+    "mean_prob_lesion": 0.6796,
+    "mean_prob_background": 0.0039
+  },
+  {
+    "frame": 92,
+    "dice": 0.8681,
+    "mean_prob_lesion": 0.7553,
+    "mean_prob_background": 0.0122
+  },
+  {
+    "frame": 93,
+    "dice": 0.8807,
+    "mean_prob_lesion": 0.7839,
+    "mean_prob_background": 0.0024
+  },
+  {
+    "frame": 94,
+    "dice": 0.9056,
+    "mean_prob_lesion": 0.8114,
+    "mean_prob_background": 0.0057
+  },
+  {
+    "frame": 95,
+    "dice": 0.9222,
+    "mean_prob_lesion": 0.7146,
+    "mean_prob_background": 0.0434
+  },
+  {
+    "frame": 96,
+    "dice": 0.9531,
+    "mean_prob_lesion": 0.7521,
+    "mean_prob_background": 0.0709
+  },
+  {
+    "frame": 97,
+    "dice": 0.9192,
+    "mean_prob_lesion": 0.6564,
+    "mean_prob_background": 0.0893
+  },
+  {
+    "frame": 98,
+    "dice": 0.9104,
+    "mean_prob_lesion": 0.771,
+    "mean_prob_background": 0.0543
+  },
+  {
+    "frame": 99,
+    "dice": 0.9351,
+    "mean_prob_lesion": 0.7353,
+    "mean_prob_background": 0.0572
+  },
+  {
+    "frame": 100,
+    "dice": 0.9259,
+    "mean_prob_lesion": 0.7465,
+    "mean_prob_background": 0.062
+  },
+  {
+    "frame": 101,
+    "dice": 0.872,
+    "mean_prob_lesion": 0.751,
+    "mean_prob_background": 0.009
+  },
+  {
+    "frame": 102,
+    "dice": 0.8947,
+    "mean_prob_lesion": 0.8015,
+    "mean_prob_background": 0.005
+  },
+  {
+    "frame": 103,
+    "dice": 0.9149,
+    "mean_prob_lesion": 0.8293,
+    "mean_prob_background": 0.0085
+  }
+]

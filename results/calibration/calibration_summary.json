@@ -1,0 +1,94 @@
+{
+  "sequence": "Ablation_1",
+  "n_frames": 104,
+  "total_pixels": 87060480,
+  "lesion_pixels": 17404031,
+  "background_pixels": 69656449,
+  "ece": 0.040162,
+  "mean_prob_lesion": 0.7058,
+  "mean_prob_background": 0.0233,
+  "prob_separation": 0.6825,
+  "mean_dice": 0.8541,
+  "calibration_bins": [
+    {
+      "bin_lower": 0.0,
+      "bin_upper": 0.1,
+      "mean_pred_prob": 0.0101,
+      "fraction_positive": 0.0248,
+      "n_samples": 66679306,
+      "calibration_error": 0.0147
+    },
+    {
+      "bin_lower": 0.1,
+      "bin_upper": 0.2,
+      "mean_pred_prob": 0.1427,
+      "fraction_positive": 0.1944,
+      "n_samples": 3240913,
+      "calibration_error": 0.0517
+    },
+    {
+      "bin_lower": 0.2,
+      "bin_upper": 0.3,
+      "mean_pred_prob": 0.2463,
+      "fraction_positive": 0.3444,
+      "n_samples": 1699896,
+      "calibration_error": 0.0981
+    },
+    {
+      "bin_lower": 0.3,
+      "bin_upper": 0.4,
+      "mean_pred_prob": 0.3484,
+      "fraction_positive": 0.5432,
+      "n_samples": 1240011,
+      "calibration_error": 0.1948
+    },
+    {
+      "bin_lower": 0.4,
+      "bin_upper": 0.5,
+      "mean_pred_prob": 0.4493,
+      "fraction_positive": 0.7868,
+      "n_samples": 1081687,
+      "calibration_error": 0.3374
+    },
+    {
+      "bin_lower": 0.5,
+      "bin_upper": 0.6,
+      "mean_pred_prob": 0.5501,
+      "fraction_positive": 0.9342,
+      "n_samples": 1028799,
+      "calibration_error": 0.3841
+    },
+    {
+      "bin_lower": 0.6,
+      "bin_upper": 0.7,
+      "mean_pred_prob": 0.6515,
+      "fraction_positive": 0.9765,
+      "n_samples": 1141992,
+      "calibration_error": 0.325
+    },
+    {
+      "bin_lower": 0.7,
+      "bin_upper": 0.8,
+      "mean_pred_prob": 0.7528,
+      "fraction_positive": 0.9916,
+      "n_samples": 1476929,
+      "calibration_error": 0.2388
+    },
+    {
+      "bin_lower": 0.8,
+      "bin_upper": 0.9,
+      "mean_pred_prob": 0.8519,
+      "fraction_positive": 0.998,
+      "n_samples": 1940654,
+      "calibration_error": 0.146
+    },
+    {
+      "bin_lower": 0.9,
+      "bin_upper": 1.0,
+      "mean_pred_prob": 0.977,
+      "fraction_positive": 0.9999,
+      "n_samples": 7530293,
+      "calibration_error": 0.023
+    }
+  ]
+}
