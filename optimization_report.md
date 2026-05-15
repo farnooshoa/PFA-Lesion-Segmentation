@@ -196,6 +196,9 @@ Tested 15 preprocessing methods. Top results:
 | Exp 17 | Fine-tune Large (15ep) | 0.898 GT / 0.804 YOLO | Large better |
 | Exp 18 | Fine-tune Large + vidprop | 0.853 | Good but not optimal training |
 | **Exp 19** | **Fine-tune Large v2 (40ep, cosine LR, early stop) + vidprop** | **0.878** | **Best (fair eval)** |
+| Exp 20 | Frozen backbone YOLO (head-only fine-tune) | mAP50-95: 0.601 | +35% vs full fine-tune |
+| Exp 21 | Intensity-guided positive prompts | Dice: 0.8716 (Ablation_3) | Below geometric baseline |
+| Exp 22 | Edge-midpoint negative prompts | Dice: 0.8956 (Ablation_3) | Below geometric baseline |
 
 ## 6. Key Takeaways
 
@@ -209,4 +212,4 @@ Tested 15 preprocessing methods. Top results:
 
 5. **Standard tricks don't always work**: TTA, CRF, ensemble, and temporal smoothing — all standard segmentation boosters — provided no improvement because MedSAM2's video propagation already handles what these techniques address.
 
-6. **The bottleneck shifts**: Initially the model was the bottleneck (0.79). After optimization, the remaining gap (0.892 vs GT 0.916 = 0.024) is split between YOLO detection accuracy and video propagation drift.
+6. **The bottleneck shifts**: Initially the model was the bottleneck (0.79). After optimization, the remaining gap (0.892 vs GT 0.916 = 0.024) is split between YOLO detection accuracy and video propagation 
