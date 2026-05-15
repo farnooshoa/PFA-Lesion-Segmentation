@@ -104,6 +104,16 @@ def make_grid_points_from_box(x1, y1, x2, y2):
     labels = np.array([1] * 9 + [0] * 4, dtype=np.int32)
     return points, labels, pos, neg
 
+def strategy_3pos_invtri(x1, y1, x2, y2):
+    import math
+    cx, cy = (x1+x2)/2, (y1+y2)/2
+    bw, bh = x2-x1, y2-y1
+    r = min(bw/2, bh/2) * 0.5
+    pos = [[cx + r*math.cos(math.radians(a)),
+            cy - r*math.sin(math.radians(a))] for a in [150, 30, 270]]
+    mx, my = bw*0.05, bh*0.05
+    neg = [[x1+mx,y1+my],[x2-mx,y1+my],[x1+mx,y2-my],[x2-mx,y2-my]]
+    return pos, neg
 
 def dark_enhance_gamma12(img_rgb):
     """M_dark_gamma12 preprocessing"""
@@ -121,7 +131,7 @@ def run_inference(image_rgb):
     predictor = load_medsam2()
 
     # YOLO on original, MedSAM2 on preprocessed
-    det = yolo.predict(source=image_rgb, conf=CONF_THRESHOLD, device='cuda', verbose=False)
+    det = yolo.predict(source=image_rgb, conf=CONF_THRESHOLD, device='cpu', verbose=False)
     boxes = det[0].boxes
     if len(boxes) == 0:
         return None, None, None, None, None
@@ -130,12 +140,14 @@ def run_inference(image_rgb):
     x1, y1, x2, y2 = boxes.xyxy[best_idx].cpu().numpy().tolist()
     conf = boxes.conf[best_idx].cpu().item()
 
-    points, labels, pos_pts, neg_pts = make_grid_points_from_box(x1, y1, x2, y2)
+    pos_pts, neg_pts = strategy_3pos_invtri(x1, y1, x2, y2)
+    points = np.array(pos_pts + neg_pts, dtype=np.float32)
+    labels = np.array([1]*3 + [0]*4, dtype=np.int32)
     box_np = np.array([x1, y1, x2, y2], dtype=np.float32)
 
     image_proc = dark_enhance_gamma12(image_rgb)
     predictor.set_image(image_proc)
-    with torch.inference_mode(), torch.autocast(device_type="cuda", dtype=torch.bfloat16):
+    with torch.inference_mode(), torch.autocast(device_type="cpu", dtype=torch.bfloat16, enabled=False):
         masks, scores, _ = predictor.predict(
             point_coords=points, point_labels=labels,
             box=box_np, multimask_output=False,
@@ -239,7 +251,7 @@ page = st.sidebar.radio("Page", ["Real-time Segmentation", "Case Study", "Method
 
 if page == "Real-time Segmentation":
     st.subheader("Upload Image for Real-time Segmentation")
-    st.markdown("Upload a cardiac ultrasound image and the **YOLO+MedSAM2 (9pos grid)** pipeline will automatically detect and segment PFA lesions.")
+    st.markdown("Upload a cardiac ultrasound image and the **YOLO+MedSAM2 (3-point inverted triangle)** pipeline will automatically detect and segment PFA lesions.")
 
     upload_mode = st.sidebar.radio("Input source", ["Upload Image", "Select from Dataset"])
 
