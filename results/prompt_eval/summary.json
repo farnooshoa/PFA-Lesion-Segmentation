@@ -1,0 +1,17 @@
+{
+  "sequence": "Ablation_3",
+  "n_frames": 104,
+  "geometric": {
+    "mean_dice": 0.9255,
+    "mean_iou": 0.8624,
+    "mean_precision": 0.9311,
+    "mean_recall": 0.9222
+  },
+  "midpoint": {
+    "mean_dice": 0.8956,
+    "mean_iou": 0.8126,
+    "mean_precision": 0.9461,
+    "mean_recall": 0.8521
+  },
+  "delta_dice": -0.0299
+}

@@ -111,8 +111,14 @@ def strategy_3pos_invtri(x1, y1, x2, y2):
     r = min(bw/2, bh/2) * 0.5
     pos = [[cx + r*math.cos(math.radians(a)),
             cy - r*math.sin(math.radians(a))] for a in [150, 30, 270]]
-    mx, my = bw*0.05, bh*0.05
-    neg = [[x1+mx,y1+my],[x2-mx,y1+my],[x1+mx,y2-my],[x2-mx,y2-my]]
+    # New — edge midpoints
+    cx, cy = (x1+x2)/2, (y1+y2)/2
+    neg = [
+       [cx,    y1],   # top edge midpoint
+       [cx,    y2],   # bottom edge midpoint
+       [x1,    cy],   # left edge midpoint
+       [x2,    cy],   # right edge midpoint
+    ]
     return pos, neg
 
 def dark_enhance_gamma12(img_rgb):
