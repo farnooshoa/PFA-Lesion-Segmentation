@@ -21,3 +21,9 @@ compare_panels/
 # Local logs / checkpoints from re-training
 checkpoints/ft_4fold_train/
 *.log
+
+# Large generated files — keep local only
+results/threshold_sweep/logits.npy
+results/threshold_sweep/gt_masks.npy
+prompt_comparison/
+data/yolo/images/
