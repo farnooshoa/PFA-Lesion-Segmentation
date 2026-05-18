@@ -199,6 +199,8 @@ Tested 15 preprocessing methods. Top results:
 | Exp 20 | Frozen backbone YOLO (head-only fine-tune) | mAP50-95: 0.601 | +35% vs full fine-tune |
 | Exp 21 | Intensity-guided positive prompts | Dice: 0.8716 (Ablation_3) | Below geometric baseline |
 | Exp 22 | Edge-midpoint negative prompts | Dice: 0.8956 (Ablation_3) | Below geometric baseline |
+| Exp 23 | Calibration analysisECE = 0.040 | well calibrated
+| Exp 24 | Threshold sweep | Dice 0.854 → 0.885 (+0.031)
 
 ## 6. Key Takeaways
 

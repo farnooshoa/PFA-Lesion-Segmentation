@@ -84,12 +84,12 @@ from pathlib import Path
 DEFAULT_WEIGHTS = "checkpoints/yolov8n_pfa.pt"   # change to 'yolov8n.pt' for COCO start
 
 TRAIN_CFG = dict(
-    epochs        = 200,
-    patience      = 50,
+    epochs        = 50,
+    patience      = 15,
     batch         = 8,          # reduced from 16 — CPU/RAM friendly; increase if you have GPU
     imgsz         = 640,
     optimizer     = "auto",
-    lr0           = 0.01,
+    lr0           = 0.001,
     lrf           = 0.01,
     momentum      = 0.937,
     weight_decay  = 0.0005,
@@ -111,7 +111,7 @@ TRAIN_CFG = dict(
     # ── output ──
     plots         = True,
     verbose       = True,
-    device        = "cpu",      # change to 0 if you have a GPU
+    device        = 0,      # change to 0 if you have a GPU
 )
 
 SEQUENCES = ["Ablation_1", "Ablation_2", "Ablation_3", "Ablation_4"]
